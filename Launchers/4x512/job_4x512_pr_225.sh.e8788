@@ -1,0 +1,6 @@
+Using gpu device 0: Tesla M2090
+usage: train.py [-h] [-v V] [-l L] [-rbme RBME] [-grbme GRBME] [-fte FTE]
+                [-tr TR] [-dev DEV] [-prfreq PRFREQ] [-ftfreq FTFREQ]
+                [-ftonly FTONLY] [-hmmonly HMMONLY] [-hmme HMME]
+                [-maxbatch MAXBATCH]
+train.py: error: unrecognized arguments: ./train.py

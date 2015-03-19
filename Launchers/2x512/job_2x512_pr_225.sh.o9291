@@ -1,0 +1,86 @@
+Time Processing Files: 118.394361973
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 133
+number of batches: 8455
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 119
+number of batches: 1050
+... building dbn model.
+... getting the pretraining functions
+Getting pre-training function total time: 27.1786520481
+... pre-training dbn model.
+Pre-training layer 0, epoch 0, cost  165.705721467
+Pre-training layer 0, epoch 1, cost  133.841573034
+Pre-training layer 0, epoch 2, cost  112.347789769
+Pre-training layer 0, epoch 3, cost  96.7945002957
+Pre-training layer 0, epoch 4, cost  84.7388157895
+Pre-training layer 0, epoch 5, cost  74.8829243051
+Pre-training layer 0, epoch 6, cost  66.6061354228
+Pre-training layer 0, epoch 7, cost  59.5420978711
+Pre-training layer 0, epoch 8, cost  53.3884387936
+Pre-training layer 0, epoch 9, cost  48.0098942933
+Pre-training layer 0, epoch 10, cost  43.2072479302
+Pre-training layer 0, epoch 11, cost  38.9819929036
+Pre-training layer 0, epoch 12, cost  35.1835082791
+Pre-training layer 0, epoch 13, cost  31.7994936428
+Pre-training layer 0, epoch 14, cost  28.7354339148
+Pre-training layer 0, epoch 15, cost  25.987104524
+Pre-training layer 0, epoch 16, cost  23.5109143998
+Pre-training layer 0, epoch 17, cost  21.2716587818
+Pre-training layer 0, epoch 18, cost  19.2467825991
+Pre-training layer 0, epoch 19, cost  17.3977602011
+Pre-training layer 0, epoch 20, cost  15.7504749409
+Pre-training layer 0, epoch 21, cost  14.2188802853
+Pre-training layer 0, epoch 22, cost  12.8444965996
+Pre-training layer 0, epoch 23, cost  11.5808961044
+Pre-training layer 0, epoch 24, cost  10.4477934654
+Pre-training layer 0, epoch 25, cost  9.40701692785
+Pre-training layer 0, epoch 26, cost  8.44758556328
+Pre-training layer 0, epoch 27, cost  7.57905686354
+Pre-training layer 0, epoch 28, cost  6.77695705204
+Pre-training layer 0, epoch 29, cost  6.0388282636
+Pre-training layer 0, epoch 30, cost  5.36086542726
+Pre-training layer 0, epoch 31, cost  4.72897139267
+Pre-training layer 0, epoch 32, cost  4.16524153607
+Pre-training layer 0, epoch 33, cost  3.62566875185
+Pre-training layer 0, epoch 34, cost  3.14481237988
+Pre-training layer 0, epoch 35, cost  2.69302234255
+Pre-training layer 0, epoch 36, cost  2.25909248411
+Pre-training layer 0, epoch 37, cost  1.87302331276
+Pre-training layer 0, epoch 38, cost  1.498388874
+Pre-training layer 0, epoch 39, cost  1.17083213982
+Pre-training layer 0, epoch 40, cost  0.838555103304
+Pre-training layer 0, epoch 41, cost  0.549891313387
+Pre-training layer 0, epoch 42, cost  0.279954971864
+Pre-training layer 0, epoch 43, cost  0.0117965905783
+Pre-training layer 0, epoch 44, cost  -0.221018327728
+Pre-training layer 0, epoch 45, cost  -0.441694396576
+Pre-training layer 0, epoch 46, cost  -0.673644766872
+Pre-training layer 0, epoch 47, cost  -0.861122244142
+Pre-training layer 0, epoch 48, cost  -1.06162773507
+Pre-training layer 0, epoch 49, cost  -1.21387388657
+Pre-training layer 0, epoch 50, cost  -1.40441503271
+Pre-training layer 0, epoch 51, cost  -1.55600352048
+Pre-training layer 0, epoch 52, cost  -1.70919620417
+Pre-training layer 0, epoch 53, cost  -1.85411403663
+Pre-training layer 0, epoch 54, cost  -1.97545484366
+Pre-training layer 0, epoch 55, cost  -2.09581331313
+Pre-training layer 0, epoch 56, cost  -2.21652221319
+Pre-training layer 0, epoch 57, cost  -2.3400197738
+Pre-training layer 0, epoch 58, cost  -2.44015444818
+Pre-training layer 0, epoch 59, cost  -2.5349705241
+Pre-training layer 0, epoch 60, cost  -2.64882558397
+Pre-training layer 0, epoch 61, cost  -2.73250619086
+Pre-training layer 0, epoch 62, cost  -2.81747301892
+Pre-training layer 0, epoch 63, cost  -2.89791658967
+Pre-training layer 0, epoch 64, cost  -2.99172064422
+Pre-training layer 0, epoch 65, cost  -3.07013763121
+Pre-training layer 0, epoch 66, cost  -3.12937749483
+Pre-training layer 0, epoch 67, cost  -3.20065951175
+Pre-training layer 0, epoch 68, cost  -3.26635011643
+Pre-training layer 0, epoch 69, cost  -3.34082296903
+Pre-training layer 0, epoch 70, cost  -3.38849862323

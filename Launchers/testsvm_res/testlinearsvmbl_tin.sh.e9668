@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "./testsvm.py", line 165, in <module>
+    main()
+  File "./testsvm.py", line 157, in main
+    score = clf.score(X,Y)
+  File "/cfs/zorn/nobackup/n/ngal/.local/lib/python2.7/site-packages/sklearn/base.py", line 295, in score
+    return accuracy_score(y, self.predict(X))
+  File "/cfs/zorn/nobackup/n/ngal/.local/lib/python2.7/site-packages/sklearn/linear_model/base.py", line 223, in predict
+    scores = self.decision_function(X)
+  File "/cfs/zorn/nobackup/n/ngal/.local/lib/python2.7/site-packages/sklearn/linear_model/base.py", line 204, in decision_function
+    % (X.shape[1], n_features))
+ValueError: X has 143 features per sample; expecting 512

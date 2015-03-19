@@ -1,0 +1,8 @@
+... loading binary vectors.
+... loading pickled mean and std.
+... loading core test.
+====Training====
+Total utterances: 192
+Total MFCCs: 57903
+... loading classifier path: /cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/Models/3x512_pr_225_tin/LinearSVM_bl_1.save
+... computing score.

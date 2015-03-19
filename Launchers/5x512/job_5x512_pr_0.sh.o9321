@@ -1,0 +1,128 @@
+Time Processing Files: 63.1783699989
+Model: 5x512
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 133
+number of batches: 8455
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 119
+number of batches: 1050
+... building dbn model.
+... getting the pretraining functions
+Getting pre-training function total time: 71.0216948986
+... pre-training dbn model.
+... pretraining total time: 7.15255737305e-06
+... getting fine-tune functions.
+... new method of Fine-Tune !
+... fine-tune functions total time: 8.46536111832
+... fine-tuning the model.
+epoch 1, validation error 56.386504 %
+epoch 2, validation error 54.484218 %
+epoch 3, validation error 53.101196 %
+epoch 4, validation error 52.220878 %
+epoch 5, validation error 51.671102 %
+epoch 6, validation error 51.291771 %
+epoch 7, validation error 51.032442 %
+epoch 8, validation error 50.819534 %
+epoch 9, validation error 50.665894 %
+epoch 10, validation error 50.555461 %
+epoch 11, validation error 50.456194 %
+epoch 12, validation error 50.343361 %
+epoch 13, validation error 50.233683 %
+epoch 14, validation error 50.147240 %
+epoch 15, validation error 50.056838 %
+epoch 16, validation error 49.960775 %
+epoch 17, validation error 49.884771 %
+epoch 18, validation error 49.811948 %
+epoch 19, validation error 49.742310 %
+epoch 20, validation error 49.675084 %
+epoch 21, validation error 49.575835 %
+epoch 22, validation error 49.492612 %
+epoch 23, validation error 49.414173 %
+epoch 24, validation error 49.352557 %
+epoch 25, validation error 49.285342 %
+epoch 26, validation error 49.210106 %
+epoch 27, validation error 49.156471 %
+epoch 28, validation error 49.091646 %
+epoch 29, validation error 49.010824 %
+epoch 30, validation error 48.959601 %
+epoch 31, validation error 48.887608 %
+epoch 32, validation error 48.849191 %
+epoch 33, validation error 48.787545 %
+epoch 34, validation error 48.717925 %
+epoch 35, validation error 48.668318 %
+epoch 36, validation error 48.609881 %
+epoch 37, validation error 48.569060 %
+epoch 38, validation error 48.525051 %
+epoch 39, validation error 48.471412 %
+epoch 40, validation error 48.434594 %
+epoch 41, validation error 48.397781 %
+epoch 42, validation error 48.351379 %
+epoch 43, validation error 48.304964 %
+epoch 44, validation error 48.273757 %
+epoch 45, validation error 48.232922 %
+epoch 46, validation error 48.220927 %
+epoch 47, validation error 48.201721 %
+epoch 48, validation error 48.204104 %
+epoch 49, validation error 46.680318 %
+epoch 50, validation error 46.733122 %
+epoch 51, validation error 45.310907 %
+epoch 52, validation error 45.383763 %
+epoch 53, validation error 44.424956 %
+epoch 54, validation error 44.445748 %
+epoch 55, validation error 43.923985 %
+epoch 56, validation error 43.905558 %
+epoch 57, validation error 43.897577 %
+epoch 58, validation error 43.895182 %
+epoch 59, validation error 43.891195 %
+epoch 60, validation error 43.881560 %
+epoch 61, validation error 43.904771 %
+epoch 62, validation error 43.507786 %
+epoch 63, validation error 43.501372 %
+epoch 64, validation error 43.490978 %
+epoch 65, validation error 43.480585 %
+epoch 66, validation error 43.466178 %
+epoch 67, validation error 43.458173 %
+epoch 68, validation error 43.468581 %
+epoch 69, validation error 43.298895 %
+epoch 70, validation error 43.275705 %
+epoch 71, validation error 43.277309 %
+... fine-tuning total time: 3995.09535003
+... initializing HMM.
+... building HMM.
+... training HMM.
+Training logp: -44.70572 
+Dev logp: 426.96359 
+Mean dev per: 0.47486
+Training logp: 522.54498 
+Dev logp: 611.09852 
+Mean dev per: 0.47651
+Training logp: 659.50304 
+Dev logp: 656.74016 
+Mean dev per: 0.47785
+Training logp: 689.43006 
+Dev logp: 672.18336 
+Mean dev per: 0.47890
+Training logp: 697.82792 
+Dev logp: 678.81672 
+Mean dev per: 0.47850
+Training logp: 700.81764 
+Dev logp: 682.13773 
+Mean dev per: 0.47787
+Training logp: 702.16951 
+Dev logp: 684.02820 
+Mean dev per: 0.47688
+Training logp: 702.89590 
+Dev logp: 685.18203 
+Mean dev per: 0.47625
+Training logp: 703.30303 
+Dev logp: 685.92031 
+Mean dev per: 0.47575
+Training logp: 703.52056 
+Dev logp: 686.41125 
+Mean dev per: 0.47546
+... HMM training time: 7006.46176505
+... saving HMM.

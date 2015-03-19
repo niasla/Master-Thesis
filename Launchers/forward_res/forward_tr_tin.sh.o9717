@@ -1,0 +1,13 @@
+Model: 
+/cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/Models/4x512_pr_225_tin/
+... loading pickled mean and std.
+... reading training files.
+====Test====
+Total MFCCs: 156440
+batch size: 78220
+number of batches: 2
+... loading pickled dbn.
+... computing forward pass.
+... processing forward result.
+Forward Result: 0.741211
+... saving results to file.

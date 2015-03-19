@@ -1,0 +1,10 @@
+- Numpy 1.7
+- Scipy 0.12
+- Theano 0.6rc3
+- Nose
+- Cuda Toolkit
+- matplotlib
+- python-Levenshtein-0.10.2
+- Matlab Auditory Toolox
+- pmtk3
+- libwww-perl and perl libraries

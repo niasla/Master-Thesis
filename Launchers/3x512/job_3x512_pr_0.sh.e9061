@@ -1,0 +1,10 @@
+Using gpu device 0: Tesla M2090
+Traceback (most recent call last):
+  File "./train.py", line 5, in <module>
+    import DeepLearningTB.DBN as db
+  File "/cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/DeepLearningTB/DBN.py", line 16, in <module>
+    from mlp import HiddenLayer
+  File "/cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/DeepLearningTB/mlp.py", line 84
+    high = 1.
+       ^
+SyntaxError: invalid syntax

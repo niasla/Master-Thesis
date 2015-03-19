@@ -1,0 +1,20 @@
+Time Processing Files: 63.9747869968
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124516
+batch size: 66148
+number of batches: 17
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 62475
+number of batches: 2
+... building dbn model.
+... getting the pretraining functions
+Getting pre-training function total time: 13.7348740101
+... pre-training dbn model.
+... pretraining total time: 7089.19198489
+... getting fine-tune functions.
+... fine-tune functions total time: 6.17167901993
+... fine-tuning the model.
+... fine-tuning total time: 25968.348536

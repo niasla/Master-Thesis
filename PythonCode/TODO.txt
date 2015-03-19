@@ -1,0 +1,23 @@
+HMM:
+-optimize for GPU and theano(check fns return numpy etc... n types of float 64)
+x-log probability domain
+x-NeuralNetwork inclusion
+- Implementation of PER calc.
+
+DBN-DNN:
+x- Fix Validation and test set
+x- Fix MFCC
+-x- Fix GRBM
+- Make the code Modular (for future change)
+- Map from 61 phonemes to 39
+- Add pickle
+- get the best hyperparameters
+- Maybe try MMI for finetuning.
+x- expand input
+
+
+
+
+Theoretical study of multi-level representations:
+- Speaker independence?
+- Noise in higher levels ?

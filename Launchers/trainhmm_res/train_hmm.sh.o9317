@@ -1,0 +1,13 @@
+Time Processing Files: 63.8727850914
+Model: 4x2048
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 32129
+number of batches: 35
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 41650
+number of batches: 3
+... loading pickled dbn.

@@ -1,0 +1,4 @@
+/var/spool/torque/mom_priv/jobs/9301.gc.pdc.kth.se.SC: line 5: [4: command not found
+INFO (theano.gof.compilelock): Waiting for existing lock by process '4595' (I am process '1762')
+INFO (theano.gof.compilelock): To manually release the lock, delete /cfs/zorn/nobackup/n/ngal/.theano/compiledir_Linux-2.6.18-308.13.1.el5-x86_64-with-redhat-5.8-Final-x86_64-2.7.5-64/lock_dir
+Using gpu device 0: Tesla M2090

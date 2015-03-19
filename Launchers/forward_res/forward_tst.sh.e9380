@@ -1,0 +1,3 @@
+Using gpu device 0: Tesla M2090
+/cfs/zorn/nobackup/n/ngal/.local/lib/python2.7/theano/sandbox/rng_mrg.py:756: UserWarning: MRG_RandomStreams Can't determine #streams from size (Shape.0), guessing 60 * 256
+  nstreams = self.n_streams(size)

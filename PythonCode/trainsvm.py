@@ -1,0 +1,175 @@
+#!/usr/bin/env python
+
+#import time as t
+import myutils
+#import DeepLearningTB.DBN as db
+import numpy as np
+#import theano
+#import theano.tensor as T
+#from hmm import HMM,EmissionModel
+import cPickle
+import argparse
+import os
+from sklearn import svm
+#from sklearn.grid_search import GridSearchCV
+#from sklearn.cross_validation import train_test_split
+#from sklearn.cross_validation import KFold
+#from sklearn import cross_validation
+
+def main():
+    parser = argparse.ArgumentParser( description='Parameters Specification.')
+    parser.add_argument("-v", help="Show output verbosity.",type=int)
+    parser.add_argument("-linear", help="Option to specify linear kernel.", type=str)
+    parser.add_argument("-s", help="Option to specify a number of samples", type=int)
+    parser.add_argument("-bl", help="Specify binary layer to study", type=int)
+    parser.add_argument("-tr", help="Number training utterances to take.", type=int)
+    #parser.add_argument("-C", help="Error cost.", type=float)
+    parser.add_argument("-l", help="Number of hidden layers.", type=str)
+    parser.add_argument("-e", help="Pretraining epochs (for getting the model).", type=int)
+    parser.add_argument("-tin", help="Tin dataset.", type=int)
+    parser.add_argument("-rl", help="Specify sigmoid layer to study", type=int)
+    
+
+
+    args = parser.parse_args()
+    svm_verbose = args.v if args.v else 0
+    n_states_per_phoneme = 1
+    n_phonemes = 61
+    extend_input_n = 11
+    utterances_tr = args.tr if args.tr is not None else None
+    models_base_path = os.environ['MT_ROOT']+'/Models/'
+    #error_cost = 1.0 if args.C is None else args.C
+    pretraining_epochs = 225 if args.e is None else args.e
+   
+
+    if args.l is not None :
+        hidden_layers_sz = [int(i) for i in args.l.split(',')]
+        if args.tin:
+            model_dir_path = models_base_path+str(len(hidden_layers_sz))+'x'+str(hidden_layers_sz[0])+'_pr_'+str(pretraining_epochs)+'_tin/'
+        else:
+            model_dir_path = models_base_path+str(len(hidden_layers_sz))+'x'+str(hidden_layers_sz[0])+'_pr_'+str(pretraining_epochs)+'/'
+    else:
+        hidden_layers_sz = None
+        model_dir_path = models_base_path+'SVM/'
+
+    X_ = []
+    Y_ = []
+    if args.bl:
+        b_layer_idx =  args.bl-1 if args.bl is not None else None
+        if args.v:
+            print '... loading binary vectors of layer '+str(args.bl)+'.'
+            print 'Model dir: '+model_dir_path
+            
+        
+        f = file(model_dir_path+'Forward_tr.save', 'rb')
+        data = cPickle.load(f)
+        f.close()
+        
+        for phn_idx in xrange(n_phonemes):
+            phn = data[phn_idx]
+            for i in xrange(len(phn)):
+                X_.append(phn[i][b_layer_idx])
+                Y_.append(phn_idx)
+        
+        X = np.vstack(X_)
+        Y = np.vstack(Y_)
+    
+    elif args.rl:
+        r_layer_idx =  args.rl-1 if args.rl is not None else None
+        if args.v:
+            print '... loading real sigmoid vectors of layer '+str(args.rl)+'.'
+            print 'Model dir: '+model_dir_path
+            
+        
+        f = file(model_dir_path+'Forward_tr_rl.save', 'rb')
+        data = cPickle.load(f)
+        f.close()
+        
+        for phn_idx in xrange(n_phonemes):
+            phn = data[phn_idx]
+            for i in xrange(len(phn)):
+                X_.append(phn[i][r_layer_idx])
+                Y_.append(phn_idx)
+        
+        X = np.vstack(X_)
+        Y = np.vstack(Y_)
+        
+
+    else:
+        if args.v:
+            print '... reading mfcc files.'
+            print 'Model dir: '+model_dir_path
+        mfcc_f_tr = myutils.read_mfcc_files(os.environ['TIMIT']+'/train')
+        stacked_features_tr,stacked_labels_tr,frame_idces_tr,prior_tr,mean_tr,std_tr = myutils.process_mfcc_files(mfcc_f_tr,n_phonemes, n=utterances_tr, n_states_per_phoneme=n_states_per_phoneme)
+        
+        if args.v >= 1 :
+            print '====Training===='
+            print 'Total utterances: ' + str(frame_idces_tr.shape[0])
+            print 'Total MFCCs: ' + str(stacked_features_tr.shape[0])
+
+
+        #Concatenate the input  
+        stacked_features_tr  = myutils.extend_input(stacked_features_tr, frame_idces_tr, extend_input_n)
+        
+        X = stacked_features_tr 
+        Y = stacked_labels_tr
+    
+    if args.linear is None:
+        clf = svm.SVC(cache_size=20000)
+    else:
+        clf = svm.LinearSVC(dual=False)
+    
+    
+    if args.v:
+        print '... training model.'
+        
+    if args.linear: 
+  
+        clf.fit(X,Y)
+    
+    else:
+      
+        #X_train,X_test=train_test_split(X, test_size=0.33, random_state=42)
+       
+        grid = GridSearchCV(clf, param_grid, cv=cv_fold , n_jobs=-1)
+        if args.v:
+            print '... Training.'
+        grid.fit(X,Y)
+    
+    #print("The best classifier is: ", grid.best_estimator_)
+        
+    if args.v:
+        print '... saving model.'
+    
+    #error_cost = best_clf.get_params()['C']
+    
+    if args.bl:
+        if args.linear:
+            f = file(model_dir_path+'LinearSVM_bl_'+str(args.bl)+'.save', 'wb')
+        else:
+            
+            f = file(model_dir_path+'NonLinearSVM_bl_'+str(args.bl)+'.save', 'wb')
+    
+    elif args.rl:
+        if args.linear:
+            f = file(model_dir_path+'LinearSVM_rl_'+str(args.rl)+'.save', 'wb')
+        else:
+            f = file(model_dir_path+'NonLinearSVM_rl_'+str(args.rl)+'.save', 'wb')
+    else:
+        if not os.path.exists( models_base_path+'SVM'):
+            os.makedirs( models_base_path+'SVM')
+        if args.linear:
+            f = file(  model_dir_path+'LinearSVM.save', 'wb')
+        else:
+            f = file(  model_dir_path+'NonLinearSVM.save', 'wb')
+        
+        
+    
+    cPickle.dump(clf, f, protocol=cPickle.HIGHEST_PROTOCOL)
+    f.close()
+    
+if __name__ == "__main__":
+    main()
+
+
+    

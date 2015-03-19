@@ -1,0 +1,13 @@
+Model: 
+/cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/Models/2x1024_pr_225/
+... loading pickled mean and std.
+... reading test files.
+====Test====
+Total utterances: 192
+Total MFCCs: 57903
+batch size: 57903
+number of batches: 1
+... loading pickled dbn.
+... loading pickled HMM.
+... initializing HMM.
+Phoneme Error Rate in 2x1024:   45.450

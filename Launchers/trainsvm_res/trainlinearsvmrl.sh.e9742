@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "./trainsvm.py", line 172, in <module>
+    main()
+  File "./trainsvm.py", line 84, in main
+    f = file(model_dir_path+'Forward_tr_rl.save', 'rb')
+IOError: [Errno 2] No such file or directory: '/cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/Models/3x512_pr_225/Forward_tr_rl.save'

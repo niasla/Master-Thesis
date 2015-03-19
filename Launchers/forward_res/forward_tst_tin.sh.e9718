@@ -1,0 +1,4 @@
+Using gpu device 0: Tesla M2090
+usage: test.py [-h] [-v V] [-e E] [-ntr NTR] [-training TRAINING] [-l L]
+               [-m M] [-per PER] [-save SAVE] [-tin TIN] [-rl RL]
+test.py: error: argument -l: expected one argument

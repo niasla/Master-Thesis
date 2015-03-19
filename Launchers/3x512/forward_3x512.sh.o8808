@@ -1,0 +1,24 @@
+... loading pickled mean and std.
+... reading training files.
+====Test====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 32129
+number of batches: 35
+... loading pickled dbn.
+... computing forward pass.
+... processing forward result.
+0.417848587036
+... saving results to file.
+... loading pickled mean and std.
+... reading test files.
+====Test====
+Total utterances: 192
+Total MFCCs: 57903
+batch size: 19301
+number of batches: 3
+... loading pickled dbn.
+... computing forward pass.
+... processing forward result.
+0.425401091576
+... saving results to file.

@@ -1,0 +1,1161 @@
+Time Processing Files: 62.0965089798
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 133
+number of batches: 8455
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 119
+number of batches: 1050
+... building dbn model.
+... getting the pretraining functions
+Getting pre-training function total time: 56.966285944
+... pre-training dbn model.
+Pre-training layer 0, epoch 0, cost  227.096717918
+Pre-training layer 0, epoch 1, cost  158.574985216
+Pre-training layer 0, epoch 2, cost  122.372464518
+Pre-training layer 0, epoch 3, cost  98.6609107037
+Pre-training layer 0, epoch 4, cost  81.4322516263
+Pre-training layer 0, epoch 5, cost  68.2039547605
+Pre-training layer 0, epoch 6, cost  57.7046791839
+Pre-training layer 0, epoch 7, cost  49.1713778829
+Pre-training layer 0, epoch 8, cost  42.0997967179
+Pre-training layer 0, epoch 9, cost  36.2378511236
+Pre-training layer 0, epoch 10, cost  31.2795609107
+Pre-training layer 0, epoch 11, cost  27.1372579095
+Pre-training layer 0, epoch 12, cost  23.5771732703
+Pre-training layer 0, epoch 13, cost  20.5453356002
+Pre-training layer 0, epoch 14, cost  17.9439089296
+Pre-training layer 0, epoch 15, cost  15.7001774098
+Pre-training layer 0, epoch 16, cost  13.757520513
+Pre-training layer 0, epoch 17, cost  12.0682944633
+Pre-training layer 0, epoch 18, cost  10.5823763675
+Pre-training layer 0, epoch 19, cost  9.2740528903
+Pre-training layer 0, epoch 20, cost  8.13033061059
+Pre-training layer 0, epoch 21, cost  7.13161636975
+Pre-training layer 0, epoch 22, cost  6.21341707939
+Pre-training layer 0, epoch 23, cost  5.40893286147
+Pre-training layer 0, epoch 24, cost  4.67098286886
+Pre-training layer 0, epoch 25, cost  4.03551615169
+Pre-training layer 0, epoch 26, cost  3.45754730928
+Pre-training layer 0, epoch 27, cost  2.91625494345
+Pre-training layer 0, epoch 28, cost  2.44286780197
+Pre-training layer 0, epoch 29, cost  1.99124593436
+Pre-training layer 0, epoch 30, cost  1.60623313683
+Pre-training layer 0, epoch 31, cost  1.23277473111
+Pre-training layer 0, epoch 32, cost  0.906052204225
+Pre-training layer 0, epoch 33, cost  0.595191223758
+Pre-training layer 0, epoch 34, cost  0.329501167717
+Pre-training layer 0, epoch 35, cost  0.0602665391919
+Pre-training layer 0, epoch 36, cost  -0.187071822678
+Pre-training layer 0, epoch 37, cost  -0.413106352334
+Pre-training layer 0, epoch 38, cost  -0.62001265893
+Pre-training layer 0, epoch 39, cost  -0.803266893203
+Pre-training layer 0, epoch 40, cost  -0.990249736657
+Pre-training layer 0, epoch 41, cost  -1.15458493495
+Pre-training layer 0, epoch 42, cost  -1.32052132614
+Pre-training layer 0, epoch 43, cost  -1.45470332366
+Pre-training layer 0, epoch 44, cost  -1.60016805422
+Pre-training layer 0, epoch 45, cost  -1.73560889914
+Pre-training layer 0, epoch 46, cost  -1.85166367904
+Pre-training layer 0, epoch 47, cost  -1.96141244086
+Pre-training layer 0, epoch 48, cost  -2.07085743458
+Pre-training layer 0, epoch 49, cost  -2.16532977898
+Pre-training layer 0, epoch 50, cost  -2.28423917061
+Pre-training layer 0, epoch 51, cost  -2.36315766373
+Pre-training layer 0, epoch 52, cost  -2.43949909447
+Pre-training layer 0, epoch 53, cost  -2.52368051449
+Pre-training layer 0, epoch 54, cost  -2.6061917874
+Pre-training layer 0, epoch 55, cost  -2.67213395365
+Pre-training layer 0, epoch 56, cost  -2.74260561428
+Pre-training layer 0, epoch 57, cost  -2.8025294759
+Pre-training layer 0, epoch 58, cost  -2.87545415065
+Pre-training layer 0, epoch 59, cost  -2.94328660925
+Pre-training layer 0, epoch 60, cost  -2.98918031121
+Pre-training layer 0, epoch 61, cost  -3.04341135053
+Pre-training layer 0, epoch 62, cost  -3.0978121766
+Pre-training layer 0, epoch 63, cost  -3.14232725643
+Pre-training layer 0, epoch 64, cost  -3.18251173492
+Pre-training layer 0, epoch 65, cost  -3.24331271252
+Pre-training layer 0, epoch 66, cost  -3.27447631764
+Pre-training layer 0, epoch 67, cost  -3.32747819338
+Pre-training layer 0, epoch 68, cost  -3.35463159743
+Pre-training layer 0, epoch 69, cost  -3.39855646622
+Pre-training layer 0, epoch 70, cost  -3.43700334491
+Pre-training layer 0, epoch 71, cost  -3.48206774837
+Pre-training layer 0, epoch 72, cost  -3.50528048307
+Pre-training layer 0, epoch 73, cost  -3.53573329391
+Pre-training layer 0, epoch 74, cost  -3.55716638638
+Pre-training layer 0, epoch 75, cost  -3.60370412293
+Pre-training layer 0, epoch 76, cost  -3.62096069264
+Pre-training layer 0, epoch 77, cost  -3.65790790398
+Pre-training layer 0, epoch 78, cost  -3.6700004158
+Pre-training layer 0, epoch 79, cost  -3.70232757983
+Pre-training layer 0, epoch 80, cost  -3.72539963409
+Pre-training layer 0, epoch 81, cost  -3.75468680699
+Pre-training layer 0, epoch 82, cost  -3.77187707902
+Pre-training layer 0, epoch 83, cost  -3.80315618532
+Pre-training layer 0, epoch 84, cost  -3.81030478452
+Pre-training layer 0, epoch 85, cost  -3.82978821703
+Pre-training layer 0, epoch 86, cost  -3.86112876996
+Pre-training layer 0, epoch 87, cost  -3.86854140486
+Pre-training layer 0, epoch 88, cost  -3.88155399911
+Pre-training layer 0, epoch 89, cost  -3.91238034077
+Pre-training layer 0, epoch 90, cost  -3.92055551449
+Pre-training layer 0, epoch 91, cost  -3.92774569412
+Pre-training layer 0, epoch 92, cost  -3.96679987803
+Pre-training layer 0, epoch 93, cost  -3.96488394441
+Pre-training layer 0, epoch 94, cost  -3.98835655677
+Pre-training layer 0, epoch 95, cost  -4.01170257983
+Pre-training layer 0, epoch 96, cost  -4.00759304775
+Pre-training layer 0, epoch 97, cost  -4.04072386901
+Pre-training layer 0, epoch 98, cost  -4.02577662995
+Pre-training layer 0, epoch 99, cost  -4.0614360031
+Pre-training layer 0, epoch 100, cost  -4.07074539843
+Pre-training layer 0, epoch 101, cost  -4.08278015967
+Pre-training layer 0, epoch 102, cost  -4.09334251183
+Pre-training layer 0, epoch 103, cost  -4.09835618717
+Pre-training layer 0, epoch 104, cost  -4.10265236916
+Pre-training layer 0, epoch 105, cost  -4.13796477676
+Pre-training layer 0, epoch 106, cost  -4.12968103193
+Pre-training layer 0, epoch 107, cost  -4.15479653312
+Pre-training layer 0, epoch 108, cost  -4.1492774246
+Pre-training layer 0, epoch 109, cost  -4.16203383723
+Pre-training layer 0, epoch 110, cost  -4.16813784373
+Pre-training layer 0, epoch 111, cost  -4.19250351124
+Pre-training layer 0, epoch 112, cost  -4.18210378474
+Pre-training layer 0, epoch 113, cost  -4.20772102306
+Pre-training layer 0, epoch 114, cost  -4.21090192564
+Pre-training layer 0, epoch 115, cost  -4.20561289548
+Pre-training layer 0, epoch 116, cost  -4.21670193303
+Pre-training layer 0, epoch 117, cost  -4.22547909891
+Pre-training layer 0, epoch 118, cost  -4.23612183989
+Pre-training layer 0, epoch 119, cost  -4.24576618865
+Pre-training layer 0, epoch 120, cost  -4.24818524542
+Pre-training layer 0, epoch 121, cost  -4.25879472206
+Pre-training layer 0, epoch 122, cost  -4.26288808397
+Pre-training layer 0, epoch 123, cost  -4.26298556697
+Pre-training layer 0, epoch 124, cost  -4.2654984107
+Pre-training layer 0, epoch 125, cost  -4.27551836931
+Pre-training layer 0, epoch 126, cost  -4.28152535482
+Pre-training layer 0, epoch 127, cost  -4.29056262936
+Pre-training layer 0, epoch 128, cost  -4.29372736177
+Pre-training layer 0, epoch 129, cost  -4.29987063868
+Pre-training layer 0, epoch 130, cost  -4.30908070299
+Pre-training layer 0, epoch 131, cost  -4.30819180588
+Pre-training layer 0, epoch 132, cost  -4.32147074586
+Pre-training layer 0, epoch 133, cost  -4.31813229967
+Pre-training layer 0, epoch 134, cost  -4.30994557584
+Pre-training layer 0, epoch 135, cost  -4.33787930588
+Pre-training layer 0, epoch 136, cost  -4.33268360068
+Pre-training layer 0, epoch 137, cost  -4.34468001552
+Pre-training layer 0, epoch 138, cost  -4.34388167135
+Pre-training layer 0, epoch 139, cost  -4.36055911813
+Pre-training layer 0, epoch 140, cost  -4.34607018776
+Pre-training layer 0, epoch 141, cost  -4.34932824512
+Pre-training layer 0, epoch 142, cost  -4.36403015967
+Pre-training layer 0, epoch 143, cost  -4.35197507022
+Pre-training layer 0, epoch 144, cost  -4.37340238764
+Pre-training layer 0, epoch 145, cost  -4.36072035778
+Pre-training layer 0, epoch 146, cost  -4.38000351124
+Pre-training layer 0, epoch 147, cost  -4.37534003548
+Pre-training layer 0, epoch 148, cost  -4.37783578504
+Pre-training layer 0, epoch 149, cost  -4.39512169205
+Pre-training layer 0, epoch 150, cost  -4.39284585674
+Pre-training layer 0, epoch 151, cost  -4.386816695
+Pre-training layer 0, epoch 152, cost  -4.38040822738
+Pre-training layer 0, epoch 153, cost  -4.39518267667
+Pre-training layer 0, epoch 154, cost  -4.39052844101
+Pre-training layer 0, epoch 155, cost  -4.39377217623
+Pre-training layer 0, epoch 156, cost  -4.40327330352
+Pre-training layer 0, epoch 157, cost  -4.38912394663
+Pre-training layer 0, epoch 158, cost  -4.40194272989
+Pre-training layer 0, epoch 159, cost  -4.41174231224
+Pre-training layer 0, epoch 160, cost  -4.39909123669
+Pre-training layer 0, epoch 161, cost  -4.40674619308
+Pre-training layer 0, epoch 162, cost  -4.40628973241
+Pre-training layer 0, epoch 163, cost  -4.40621350163
+Pre-training layer 0, epoch 164, cost  -4.42260127144
+Pre-training layer 0, epoch 165, cost  -4.42106556771
+Pre-training layer 0, epoch 166, cost  -4.41204353933
+Pre-training layer 0, epoch 167, cost  -4.41943607703
+Pre-training layer 0, epoch 168, cost  -4.4171976641
+Pre-training layer 0, epoch 169, cost  -4.41660398802
+Pre-training layer 0, epoch 170, cost  -4.42407968658
+Pre-training layer 0, epoch 171, cost  -4.43542051671
+Pre-training layer 0, epoch 172, cost  -4.42882447516
+Pre-training layer 0, epoch 173, cost  -4.42822525503
+Pre-training layer 0, epoch 174, cost  -4.42406767445
+Pre-training layer 0, epoch 175, cost  -4.42518942194
+Pre-training layer 0, epoch 176, cost  -4.44371996969
+Pre-training layer 0, epoch 177, cost  -4.43030843436
+Pre-training layer 0, epoch 178, cost  -4.43960443155
+Pre-training layer 0, epoch 179, cost  -4.44504777129
+Pre-training layer 0, epoch 180, cost  -4.43928564829
+Pre-training layer 0, epoch 181, cost  -4.432715017
+Pre-training layer 0, epoch 182, cost  -4.44769321038
+Pre-training layer 0, epoch 183, cost  -4.44264811872
+Pre-training layer 0, epoch 184, cost  -4.43661849497
+Pre-training layer 0, epoch 185, cost  -4.45269995565
+Pre-training layer 0, epoch 186, cost  -4.43269099276
+Pre-training layer 0, epoch 187, cost  -4.4428024283
+Pre-training layer 0, epoch 188, cost  -4.46166238542
+Pre-training layer 0, epoch 189, cost  -4.44922152203
+Pre-training layer 0, epoch 190, cost  -4.45103211857
+Pre-training layer 0, epoch 191, cost  -4.43784835157
+Pre-training layer 0, epoch 192, cost  -4.44597778681
+Pre-training layer 0, epoch 193, cost  -4.45456784077
+Pre-training layer 0, epoch 194, cost  -4.46203014119
+Pre-training layer 0, epoch 195, cost  -4.46954649616
+Pre-training layer 0, epoch 196, cost  -4.45546967401
+Pre-training layer 0, epoch 197, cost  -4.43471549749
+Pre-training layer 0, epoch 198, cost  -4.46029623743
+Pre-training layer 0, epoch 199, cost  -4.45674665509
+Pre-training layer 0, epoch 200, cost  -4.44949271881
+Pre-training layer 0, epoch 201, cost  -4.45269810763
+Pre-training layer 0, epoch 202, cost  -4.45575565494
+Pre-training layer 0, epoch 203, cost  -4.46584399024
+Pre-training layer 0, epoch 204, cost  -4.46186612951
+Pre-training layer 0, epoch 205, cost  -4.46457162921
+Pre-training layer 0, epoch 206, cost  -4.45661683176
+Pre-training layer 0, epoch 207, cost  -4.45243799897
+Pre-training layer 0, epoch 208, cost  -4.46441223758
+Pre-training layer 0, epoch 209, cost  -4.46280030308
+Pre-training layer 0, epoch 210, cost  -4.45395337448
+Pre-training layer 0, epoch 211, cost  -4.46753030751
+Pre-training layer 0, epoch 212, cost  -4.46510894072
+Pre-training layer 0, epoch 213, cost  -4.46227823773
+Pre-training layer 0, epoch 214, cost  -4.45744335822
+Pre-training layer 0, epoch 215, cost  -4.46535703726
+Pre-training layer 0, epoch 216, cost  -4.46183055514
+Pre-training layer 0, epoch 217, cost  -4.46130941381
+Pre-training layer 0, epoch 218, cost  -4.47089785999
+Pre-training layer 0, epoch 219, cost  -4.46027175118
+Pre-training layer 0, epoch 220, cost  -4.45731538291
+Pre-training layer 0, epoch 221, cost  -4.45711394885
+Pre-training layer 0, epoch 222, cost  -4.46447969027
+Pre-training layer 0, epoch 223, cost  -4.4678902092
+Pre-training layer 0, epoch 224, cost  -4.46374325473
+Pre-training layer 1, epoch 0, cost  -773.401301005
+Pre-training layer 1, epoch 1, cost  -728.33258427
+Pre-training layer 1, epoch 2, cost  -719.340331165
+Pre-training layer 1, epoch 3, cost  -713.845357776
+Pre-training layer 1, epoch 4, cost  -709.554937907
+Pre-training layer 1, epoch 5, cost  -706.276108811
+Pre-training layer 1, epoch 6, cost  -703.623418096
+Pre-training layer 1, epoch 7, cost  -701.318568894
+Pre-training layer 1, epoch 8, cost  -699.334535778
+Pre-training layer 1, epoch 9, cost  -697.634890597
+Pre-training layer 1, epoch 10, cost  -696.173684211
+Pre-training layer 1, epoch 11, cost  -694.904671792
+Pre-training layer 1, epoch 12, cost  -693.792607924
+Pre-training layer 1, epoch 13, cost  -692.812123004
+Pre-training layer 1, epoch 14, cost  -691.952749852
+Pre-training layer 1, epoch 15, cost  -691.195742164
+Pre-training layer 1, epoch 16, cost  -690.521230041
+Pre-training layer 1, epoch 17, cost  -689.892489651
+Pre-training layer 1, epoch 18, cost  -689.325192194
+Pre-training layer 1, epoch 19, cost  -688.789355411
+Pre-training layer 1, epoch 20, cost  -688.29355411
+Pre-training layer 1, epoch 21, cost  -687.827202839
+Pre-training layer 1, epoch 22, cost  -687.401537552
+Pre-training layer 1, epoch 23, cost  -686.994027203
+Pre-training layer 1, epoch 24, cost  -686.625133057
+Pre-training layer 1, epoch 25, cost  -686.278651685
+Pre-training layer 1, epoch 26, cost  -685.960082791
+Pre-training layer 1, epoch 27, cost  -685.6644589
+Pre-training layer 1, epoch 28, cost  -685.394263749
+Pre-training layer 1, epoch 29, cost  -685.137670018
+Pre-training layer 1, epoch 30, cost  -684.908160852
+Pre-training layer 1, epoch 31, cost  -684.696156121
+Pre-training layer 1, epoch 32, cost  -684.494500296
+Pre-training layer 1, epoch 33, cost  -684.314784151
+Pre-training layer 1, epoch 34, cost  -684.145830869
+Pre-training layer 1, epoch 35, cost  -683.990479007
+Pre-training layer 1, epoch 36, cost  -683.844056771
+Pre-training layer 1, epoch 37, cost  -683.710053223
+Pre-training layer 1, epoch 38, cost  -683.589355411
+Pre-training layer 1, epoch 39, cost  -683.464754583
+Pre-training layer 1, epoch 40, cost  -683.354109994
+Pre-training layer 1, epoch 41, cost  -683.252099349
+Pre-training layer 1, epoch 42, cost  -683.153932584
+Pre-training layer 1, epoch 43, cost  -683.064340627
+Pre-training layer 1, epoch 44, cost  -682.980248374
+Pre-training layer 1, epoch 45, cost  -682.898521585
+Pre-training layer 1, epoch 46, cost  -682.823181549
+Pre-training layer 1, epoch 47, cost  -682.747072738
+Pre-training layer 1, epoch 48, cost  -682.67386162
+Pre-training layer 1, epoch 49, cost  -682.611176818
+Pre-training layer 1, epoch 50, cost  -682.544234181
+Pre-training layer 1, epoch 51, cost  -682.480721467
+Pre-training layer 1, epoch 52, cost  -682.423772915
+Pre-training layer 1, epoch 53, cost  -682.366942637
+Pre-training layer 1, epoch 54, cost  -682.310230633
+Pre-training layer 1, epoch 55, cost  -682.258308693
+Pre-training layer 1, epoch 56, cost  -682.206150207
+Pre-training layer 1, epoch 57, cost  -682.157776464
+Pre-training layer 1, epoch 58, cost  -682.113660556
+Pre-training layer 1, epoch 59, cost  -682.064754583
+Pre-training layer 1, epoch 60, cost  -682.023477232
+Pre-training layer 1, epoch 61, cost  -681.984801892
+Pre-training layer 1, epoch 62, cost  -681.935422827
+Pre-training layer 1, epoch 63, cost  -681.894382022
+Pre-training layer 1, epoch 64, cost  -681.856120639
+Pre-training layer 1, epoch 65, cost  -681.818391484
+Pre-training layer 1, epoch 66, cost  -681.772501478
+Pre-training layer 1, epoch 67, cost  -681.738557067
+Pre-training layer 1, epoch 68, cost  -681.70348906
+Pre-training layer 1, epoch 69, cost  -681.666055588
+Pre-training layer 1, epoch 70, cost  -681.630987581
+Pre-training layer 1, epoch 71, cost  -681.598225902
+Pre-training layer 1, epoch 72, cost  -681.562566529
+Pre-training layer 1, epoch 73, cost  -681.523713779
+Pre-training layer 1, epoch 74, cost  -681.492371378
+Pre-training layer 2, epoch 0, cost  -38.8977786813
+Pre-training layer 2, epoch 1, cost  -17.2303185985
+Pre-training layer 2, epoch 2, cost  -16.2956793318
+Pre-training layer 2, epoch 3, cost  -15.66406712
+Pre-training layer 2, epoch 4, cost  -15.1881181623
+Pre-training layer 2, epoch 5, cost  -14.8046643998
+Pre-training layer 2, epoch 6, cost  -14.4757909521
+Pre-training layer 2, epoch 7, cost  -14.1904475902
+Pre-training layer 2, epoch 8, cost  -13.9456682436
+Pre-training layer 2, epoch 9, cost  -13.7300580278
+Pre-training layer 2, epoch 10, cost  -13.5368541174
+Pre-training layer 2, epoch 11, cost  -13.3709574586
+Pre-training layer 2, epoch 12, cost  -13.2228988025
+Pre-training layer 2, epoch 13, cost  -13.0928601789
+Pre-training layer 2, epoch 14, cost  -12.9812943525
+Pre-training layer 2, epoch 15, cost  -12.879000037
+Pre-training layer 2, epoch 16, cost  -12.7880423936
+Pre-training layer 2, epoch 17, cost  -12.7033070299
+Pre-training layer 2, epoch 18, cost  -12.6317655973
+Pre-training layer 2, epoch 19, cost  -12.5693543022
+Pre-training layer 2, epoch 20, cost  -12.5106676892
+Pre-training layer 2, epoch 21, cost  -12.4596743791
+Pre-training layer 2, epoch 22, cost  -12.4126820299
+Pre-training layer 2, epoch 23, cost  -12.3729219027
+Pre-training layer 2, epoch 24, cost  -12.3362553593
+Pre-training layer 2, epoch 25, cost  -12.3002226863
+Pre-training layer 2, epoch 26, cost  -12.268454317
+Pre-training layer 2, epoch 27, cost  -12.243167874
+Pre-training layer 2, epoch 28, cost  -12.2162939829
+Pre-training layer 2, epoch 29, cost  -12.1950297531
+Pre-training layer 2, epoch 30, cost  -12.1736934506
+Pre-training layer 2, epoch 31, cost  -12.1575972058
+Pre-training layer 2, epoch 32, cost  -12.1401611473
+Pre-training layer 2, epoch 33, cost  -12.1244252661
+Pre-training layer 2, epoch 34, cost  -12.1078623965
+Pre-training layer 2, epoch 35, cost  -12.0956275872
+Pre-training layer 2, epoch 36, cost  -12.0820224719
+Pre-training layer 2, epoch 37, cost  -12.0754000961
+Pre-training layer 2, epoch 38, cost  -12.0629629287
+Pre-training layer 2, epoch 39, cost  -12.0571185689
+Pre-training layer 2, epoch 40, cost  -12.045899246
+Pre-training layer 2, epoch 41, cost  -12.04101216
+Pre-training layer 2, epoch 42, cost  -12.0325057289
+Pre-training layer 2, epoch 43, cost  -12.0270134166
+Pre-training layer 2, epoch 44, cost  -12.0190068746
+Pre-training layer 2, epoch 45, cost  -12.0182501109
+Pre-training layer 2, epoch 46, cost  -12.0051929332
+Pre-training layer 2, epoch 47, cost  -12.0059367608
+Pre-training layer 2, epoch 48, cost  -12.0024578652
+Pre-training layer 2, epoch 49, cost  -11.997850754
+Pre-training layer 2, epoch 50, cost  -11.9968186354
+Pre-training layer 2, epoch 51, cost  -11.9897333309
+Pre-training layer 2, epoch 52, cost  -11.9861962226
+Pre-training layer 2, epoch 53, cost  -11.9852204687
+Pre-training layer 2, epoch 54, cost  -11.9817711413
+Pre-training layer 2, epoch 55, cost  -11.9795627587
+Pre-training layer 2, epoch 56, cost  -11.9807898433
+Pre-training layer 2, epoch 57, cost  -11.9770975015
+Pre-training layer 2, epoch 58, cost  -11.9769154716
+Pre-training layer 2, epoch 59, cost  -11.9734587522
+Pre-training layer 2, epoch 60, cost  -11.9694217549
+Pre-training layer 2, epoch 61, cost  -11.9680440568
+Pre-training layer 2, epoch 62, cost  -11.9698421792
+Pre-training layer 2, epoch 63, cost  -11.9679886162
+Pre-training layer 2, epoch 64, cost  -11.9678047383
+Pre-training layer 2, epoch 65, cost  -11.9645309728
+Pre-training layer 2, epoch 66, cost  -11.9633898211
+Pre-training layer 2, epoch 67, cost  -11.9639553149
+Pre-training layer 2, epoch 68, cost  -11.9629176523
+Pre-training layer 2, epoch 69, cost  -11.9653108368
+Pre-training layer 2, epoch 70, cost  -11.9622939459
+Pre-training layer 2, epoch 71, cost  -11.958198736
+Pre-training layer 2, epoch 72, cost  -11.9593047753
+Pre-training layer 2, epoch 73, cost  -11.9572654864
+Pre-training layer 2, epoch 74, cost  -11.9595265376
+... pretraining total time: 13304.7344301
+... getting fine-tune functions.
+... fine-tune functions total time: 6.60825181007
+... fine-tuning the model.
+epoch 1, validation error 61.651867 %
+epoch 2, validation error 59.860764 %
+epoch 3, validation error 58.416940 %
+epoch 4, validation error 57.142834 %
+epoch 5, validation error 56.003220 %
+epoch 6, validation error 55.038824 %
+epoch 7, validation error 54.340129 %
+epoch 8, validation error 53.722325 %
+epoch 9, validation error 53.261312 %
+epoch 10, validation error 52.699469 %
+epoch 11, validation error 52.255261 %
+epoch 12, validation error 51.803880 %
+epoch 13, validation error 51.442168 %
+epoch 14, validation error 51.119635 %
+epoch 15, validation error 50.766712 %
+epoch 16, validation error 50.506638 %
+epoch 17, validation error 50.232881 %
+epoch 18, validation error 49.988810 %
+epoch 19, validation error 49.752720 %
+epoch 20, validation error 49.571039 %
+epoch 21, validation error 49.398188 %
+epoch 22, validation error 49.221331 %
+epoch 23, validation error 49.068458 %
+epoch 24, validation error 48.908412 %
+epoch 25, validation error 48.788336 %
+epoch 26, validation error 48.625857 %
+epoch 27, validation error 48.495402 %
+epoch 28, validation error 48.372957 %
+epoch 29, validation error 48.244106 %
+epoch 30, validation error 48.109637 %
+epoch 31, validation error 47.987982 %
+epoch 32, validation error 47.900754 %
+epoch 33, validation error 47.809512 %
+epoch 34, validation error 47.735895 %
+epoch 35, validation error 47.642261 %
+epoch 36, validation error 47.559044 %
+epoch 37, validation error 47.479016 %
+epoch 38, validation error 47.422166 %
+epoch 39, validation error 47.358128 %
+epoch 40, validation error 47.301322 %
+epoch 41, validation error 47.210876 %
+epoch 42, validation error 47.170878 %
+epoch 43, validation error 47.130839 %
+epoch 44, validation error 47.088431 %
+epoch 45, validation error 47.046015 %
+epoch 46, validation error 47.003613 %
+epoch 47, validation error 46.967602 %
+epoch 48, validation error 46.925964 %
+epoch 49, validation error 46.902788 %
+epoch 50, validation error 46.855556 %
+epoch 51, validation error 46.817958 %
+epoch 52, validation error 46.790754 %
+epoch 53, validation error 46.742743 %
+epoch 54, validation error 46.709127 %
+epoch 55, validation error 46.682710 %
+epoch 56, validation error 46.645871 %
+epoch 57, validation error 46.622678 %
+epoch 58, validation error 46.597848 %
+epoch 59, validation error 46.566624 %
+epoch 60, validation error 46.545015 %
+epoch 61, validation error 46.529012 %
+epoch 62, validation error 46.501819 %
+epoch 63, validation error 46.469014 %
+epoch 64, validation error 46.439410 %
+epoch 65, validation error 46.407395 %
+epoch 66, validation error 46.391404 %
+epoch 67, validation error 46.382583 %
+epoch 68, validation error 46.364171 %
+epoch 69, validation error 46.349784 %
+epoch 70, validation error 46.332179 %
+epoch 71, validation error 46.332191 %
+epoch 72, validation error 46.304179 %
+epoch 73, validation error 46.271359 %
+epoch 74, validation error 46.259367 %
+epoch 75, validation error 46.248154 %
+epoch 76, validation error 46.228123 %
+epoch 77, validation error 46.215315 %
+epoch 78, validation error 46.203308 %
+epoch 79, validation error 46.201710 %
+epoch 80, validation error 46.188904 %
+epoch 81, validation error 46.172895 %
+epoch 82, validation error 46.150489 %
+epoch 83, validation error 46.132885 %
+epoch 84, validation error 46.124087 %
+epoch 85, validation error 46.133673 %
+epoch 86, validation error 46.104053 %
+epoch 87, validation error 46.080043 %
+epoch 88, validation error 46.062439 %
+epoch 89, validation error 46.053632 %
+epoch 90, validation error 46.049636 %
+epoch 91, validation error 46.050435 %
+epoch 92, validation error 46.040030 %
+epoch 93, validation error 46.031221 %
+epoch 94, validation error 46.008016 %
+epoch 95, validation error 45.984012 %
+epoch 96, validation error 45.969604 %
+epoch 97, validation error 45.959194 %
+epoch 98, validation error 45.951989 %
+epoch 99, validation error 45.933582 %
+epoch 100, validation error 45.919974 %
+epoch 101, validation error 45.915975 %
+epoch 102, validation error 45.910380 %
+epoch 103, validation error 45.892767 %
+epoch 104, validation error 45.885568 %
+epoch 105, validation error 45.878366 %
+epoch 106, validation error 45.869562 %
+epoch 107, validation error 45.868766 %
+epoch 108, validation error 45.855951 %
+epoch 109, validation error 45.838341 %
+epoch 110, validation error 45.827939 %
+epoch 111, validation error 45.819138 %
+epoch 112, validation error 45.807135 %
+epoch 113, validation error 45.802333 %
+epoch 114, validation error 45.801528 %
+epoch 115, validation error 45.791928 %
+epoch 116, validation error 45.795131 %
+epoch 117, validation error 45.787929 %
+epoch 118, validation error 45.780721 %
+epoch 119, validation error 45.769511 %
+epoch 120, validation error 45.762309 %
+epoch 121, validation error 45.748707 %
+epoch 122, validation error 45.747102 %
+epoch 123, validation error 45.734294 %
+epoch 124, validation error 45.719889 %
+epoch 125, validation error 45.709478 %
+epoch 126, validation error 45.698277 %
+epoch 127, validation error 45.695074 %
+epoch 128, validation error 45.684681 %
+epoch 129, validation error 45.679074 %
+epoch 130, validation error 45.679876 %
+epoch 131, validation error 45.679874 %
+epoch 132, validation error 45.676674 %
+epoch 133, validation error 45.667867 %
+epoch 134, validation error 45.660662 %
+epoch 135, validation error 45.661467 %
+epoch 136, validation error 45.667079 %
+epoch 137, validation error 45.671084 %
+epoch 138, validation error 45.667079 %
+epoch 139, validation error 45.667884 %
+epoch 140, validation error 45.665481 %
+epoch 141, validation error 45.660685 %
+epoch 142, validation error 45.659900 %
+epoch 143, validation error 45.651902 %
+epoch 144, validation error 45.641497 %
+epoch 145, validation error 45.625500 %
+epoch 146, validation error 45.621501 %
+epoch 147, validation error 45.618289 %
+epoch 148, validation error 45.619091 %
+epoch 149, validation error 45.611883 %
+epoch 150, validation error 45.610285 %
+epoch 151, validation error 45.614284 %
+epoch 152, validation error 45.603873 %
+epoch 153, validation error 45.595869 %
+epoch 154, validation error 45.591070 %
+epoch 155, validation error 45.583060 %
+epoch 156, validation error 45.572664 %
+epoch 157, validation error 45.567859 %
+epoch 158, validation error 45.564651 %
+epoch 159, validation error 45.550246 %
+epoch 160, validation error 45.552656 %
+epoch 161, validation error 45.555054 %
+epoch 162, validation error 45.550264 %
+epoch 163, validation error 45.550261 %
+epoch 164, validation error 45.551060 %
+epoch 165, validation error 45.551865 %
+epoch 166, validation error 45.542274 %
+epoch 167, validation error 45.542280 %
+epoch 168, validation error 45.537478 %
+epoch 169, validation error 45.535871 %
+epoch 170, validation error 45.531869 %
+epoch 171, validation error 45.520668 %
+epoch 172, validation error 45.520671 %
+epoch 173, validation error 45.516657 %
+epoch 174, validation error 45.514253 %
+epoch 175, validation error 45.517450 %
+epoch 176, validation error 45.512646 %
+epoch 177, validation error 45.511841 %
+epoch 178, validation error 45.506243 %
+epoch 179, validation error 45.500637 %
+epoch 180, validation error 45.499834 %
+epoch 181, validation error 45.495039 %
+epoch 182, validation error 45.499834 %
+epoch 183, validation error 45.499032 %
+epoch 184, validation error 45.491821 %
+epoch 185, validation error 45.494219 %
+epoch 186, validation error 45.489415 %
+epoch 187, validation error 45.482207 %
+epoch 188, validation error 45.483006 %
+epoch 189, validation error 45.474200 %
+epoch 190, validation error 45.472598 %
+epoch 191, validation error 45.470991 %
+epoch 192, validation error 45.465396 %
+epoch 193, validation error 45.469398 %
+epoch 194, validation error 45.469398 %
+epoch 195, validation error 45.465396 %
+epoch 196, validation error 45.455784 %
+epoch 197, validation error 45.447780 %
+epoch 198, validation error 45.436576 %
+epoch 199, validation error 45.430972 %
+epoch 200, validation error 45.429374 %
+epoch 201, validation error 45.433376 %
+epoch 202, validation error 45.434974 %
+epoch 203, validation error 45.430969 %
+epoch 204, validation error 45.430972 %
+epoch 205, validation error 45.429371 %
+epoch 206, validation error 45.422953 %
+epoch 207, validation error 45.422947 %
+epoch 208, validation error 45.419747 %
+epoch 209, validation error 45.415751 %
+epoch 210, validation error 45.414952 %
+epoch 211, validation error 45.413345 %
+epoch 212, validation error 45.412542 %
+epoch 213, validation error 45.412545 %
+epoch 214, validation error 45.402942 %
+epoch 215, validation error 45.400539 %
+epoch 216, validation error 45.402937 %
+epoch 217, validation error 45.402940 %
+epoch 218, validation error 45.401338 %
+epoch 219, validation error 45.401335 %
+epoch 220, validation error 45.397336 %
+epoch 221, validation error 45.394133 %
+epoch 222, validation error 45.388532 %
+epoch 223, validation error 45.390936 %
+epoch 224, validation error 45.393337 %
+epoch 225, validation error 45.398132 %
+epoch 226, validation error 45.398132 %
+epoch 227, validation error 45.397336 %
+epoch 228, validation error 45.395743 %
+epoch 229, validation error 45.398946 %
+epoch 230, validation error 45.402942 %
+epoch 231, validation error 45.397342 %
+epoch 232, validation error 45.397348 %
+epoch 233, validation error 45.399760 %
+epoch 234, validation error 45.394162 %
+epoch 235, validation error 45.393357 %
+epoch 236, validation error 45.387756 %
+epoch 237, validation error 45.387765 %
+epoch 238, validation error 45.386960 %
+epoch 239, validation error 45.385361 %
+epoch 240, validation error 45.383763 %
+epoch 241, validation error 45.385367 %
+epoch 242, validation error 45.384568 %
+epoch 243, validation error 45.382969 %
+epoch 244, validation error 45.381371 %
+epoch 245, validation error 45.378162 %
+epoch 246, validation error 45.374968 %
+epoch 247, validation error 45.370972 %
+epoch 248, validation error 45.374163 %
+epoch 249, validation error 45.374172 %
+epoch 250, validation error 45.371768 %
+epoch 251, validation error 45.368574 %
+epoch 252, validation error 45.364575 %
+epoch 253, validation error 45.364575 %
+epoch 254, validation error 45.365368 %
+epoch 255, validation error 45.361372 %
+epoch 256, validation error 45.353367 %
+epoch 257, validation error 45.348560 %
+epoch 258, validation error 45.345360 %
+epoch 259, validation error 45.341361 %
+epoch 260, validation error 45.346965 %
+epoch 261, validation error 45.348563 %
+epoch 262, validation error 45.344558 %
+epoch 263, validation error 45.343759 %
+epoch 264, validation error 45.338943 %
+epoch 265, validation error 45.335746 %
+epoch 266, validation error 45.334946 %
+epoch 267, validation error 45.327741 %
+epoch 268, validation error 45.334147 %
+epoch 269, validation error 45.326146 %
+epoch 270, validation error 45.319746 %
+epoch 271, validation error 45.317345 %
+epoch 272, validation error 45.315746 %
+epoch 273, validation error 45.311750 %
+epoch 274, validation error 45.310951 %
+epoch 275, validation error 45.313354 %
+epoch 276, validation error 45.310951 %
+epoch 277, validation error 45.302944 %
+epoch 278, validation error 45.300549 %
+epoch 279, validation error 45.296541 %
+epoch 280, validation error 45.293347 %
+epoch 281, validation error 45.290141 %
+epoch 282, validation error 45.289339 %
+epoch 283, validation error 45.286136 %
+epoch 284, validation error 45.287740 %
+epoch 285, validation error 45.286139 %
+epoch 286, validation error 45.286938 %
+epoch 287, validation error 45.283732 %
+epoch 288, validation error 45.275728 %
+epoch 289, validation error 45.276533 %
+epoch 290, validation error 45.273330 %
+epoch 291, validation error 45.270921 %
+epoch 292, validation error 45.273318 %
+epoch 293, validation error 45.270118 %
+epoch 294, validation error 45.269319 %
+epoch 295, validation error 45.265314 %
+epoch 296, validation error 45.262111 %
+epoch 297, validation error 45.263715 %
+epoch 298, validation error 45.266105 %
+epoch 299, validation error 45.266105 %
+epoch 300, validation error 45.266105 %
+epoch 301, validation error 45.264506 %
+epoch 302, validation error 45.266107 %
+epoch 303, validation error 45.266110 %
+epoch 304, validation error 45.265305 %
+epoch 305, validation error 45.265305 %
+epoch 306, validation error 45.262905 %
+epoch 307, validation error 45.257301 %
+epoch 308, validation error 45.258897 %
+epoch 309, validation error 45.255702 %
+epoch 310, validation error 45.258908 %
+epoch 311, validation error 45.260507 %
+epoch 312, validation error 45.254098 %
+epoch 313, validation error 45.253302 %
+epoch 314, validation error 45.251700 %
+epoch 315, validation error 45.248506 %
+epoch 316, validation error 45.248500 %
+epoch 317, validation error 45.246105 %
+epoch 318, validation error 45.245303 %
+epoch 319, validation error 45.242902 %
+epoch 320, validation error 45.238104 %
+epoch 321, validation error 45.241304 %
+epoch 322, validation error 45.242900 %
+epoch 323, validation error 45.236494 %
+epoch 324, validation error 45.232492 %
+epoch 325, validation error 45.226885 %
+epoch 326, validation error 45.226879 %
+epoch 327, validation error 45.226080 %
+epoch 328, validation error 45.221276 %
+epoch 329, validation error 45.219680 %
+epoch 330, validation error 45.220476 %
+epoch 331, validation error 45.225287 %
+epoch 332, validation error 45.219683 %
+epoch 333, validation error 45.220471 %
+epoch 334, validation error 45.217268 %
+epoch 335, validation error 45.213266 %
+epoch 336, validation error 45.212460 %
+epoch 337, validation error 45.210063 %
+epoch 338, validation error 45.207659 %
+epoch 339, validation error 45.212460 %
+epoch 340, validation error 45.211661 %
+epoch 341, validation error 45.208452 %
+epoch 342, validation error 45.209258 %
+epoch 343, validation error 45.211670 %
+epoch 344, validation error 45.214068 %
+epoch 345, validation error 45.217262 %
+epoch 346, validation error 45.210057 %
+epoch 347, validation error 45.209258 %
+epoch 348, validation error 45.204462 %
+epoch 349, validation error 45.202055 %
+epoch 350, validation error 45.198056 %
+epoch 351, validation error 45.199652 %
+epoch 352, validation error 45.198844 %
+epoch 353, validation error 45.198844 %
+epoch 354, validation error 45.199646 %
+epoch 355, validation error 45.194045 %
+epoch 356, validation error 45.191650 %
+epoch 357, validation error 45.193252 %
+epoch 358, validation error 45.190052 %
+epoch 359, validation error 45.186849 %
+epoch 360, validation error 45.186047 %
+epoch 361, validation error 45.186047 %
+epoch 362, validation error 45.185250 %
+epoch 363, validation error 45.187657 %
+epoch 364, validation error 45.190866 %
+epoch 365, validation error 45.188465 %
+epoch 366, validation error 45.187657 %
+epoch 367, validation error 45.190063 %
+epoch 368, validation error 45.189261 %
+epoch 369, validation error 45.188456 %
+epoch 370, validation error 45.190061 %
+epoch 371, validation error 45.186070 %
+epoch 372, validation error 45.190871 %
+epoch 373, validation error 45.186872 %
+epoch 374, validation error 45.188471 %
+epoch 375, validation error 45.182864 %
+epoch 376, validation error 45.176461 %
+epoch 377, validation error 45.175662 %
+epoch 378, validation error 45.174851 %
+epoch 379, validation error 45.175645 %
+epoch 380, validation error 45.178048 %
+epoch 381, validation error 45.174043 %
+epoch 382, validation error 45.170044 %
+epoch 383, validation error 45.170041 %
+epoch 384, validation error 45.172445 %
+epoch 385, validation error 45.173253 %
+epoch 386, validation error 45.171651 %
+epoch 387, validation error 45.166858 %
+epoch 388, validation error 45.163659 %
+epoch 389, validation error 45.162060 %
+epoch 390, validation error 45.159656 %
+epoch 391, validation error 45.157247 %
+epoch 392, validation error 45.158848 %
+epoch 393, validation error 45.154044 %
+epoch 394, validation error 45.154041 %
+epoch 395, validation error 45.154044 %
+epoch 396, validation error 45.150844 %
+epoch 397, validation error 45.150045 %
+epoch 398, validation error 45.144447 %
+epoch 399, validation error 45.138849 %
+epoch 400, validation error 45.136454 %
+epoch 401, validation error 45.130848 %
+epoch 402, validation error 45.130854 %
+epoch 403, validation error 45.130851 %
+epoch 404, validation error 45.133251 %
+epoch 405, validation error 45.130051 %
+epoch 406, validation error 45.129255 %
+epoch 407, validation error 45.124454 %
+epoch 408, validation error 45.122852 %
+epoch 409, validation error 45.118847 %
+epoch 410, validation error 45.110849 %
+epoch 411, validation error 45.108436 %
+epoch 412, validation error 45.102833 %
+epoch 413, validation error 45.100429 %
+epoch 414, validation error 45.097229 %
+epoch 415, validation error 45.102033 %
+epoch 416, validation error 45.105236 %
+epoch 417, validation error 45.103632 %
+epoch 418, validation error 45.106036 %
+epoch 419, validation error 45.104434 %
+epoch 420, validation error 45.102033 %
+epoch 421, validation error 45.098034 %
+epoch 422, validation error 45.094026 %
+epoch 423, validation error 45.094026 %
+epoch 424, validation error 45.093227 %
+epoch 425, validation error 45.092428 %
+epoch 426, validation error 45.096427 %
+epoch 427, validation error 45.094020 %
+epoch 428, validation error 45.090018 %
+epoch 429, validation error 45.088420 %
+epoch 430, validation error 45.086818 %
+epoch 431, validation error 45.085217 %
+epoch 432, validation error 45.080415 %
+epoch 433, validation error 45.079613 %
+epoch 434, validation error 45.078811 %
+epoch 435, validation error 45.079616 %
+epoch 436, validation error 45.071617 %
+epoch 437, validation error 45.072420 %
+epoch 438, validation error 45.069220 %
+epoch 439, validation error 45.072425 %
+epoch 440, validation error 45.074823 %
+epoch 441, validation error 45.070824 %
+epoch 442, validation error 45.062018 %
+epoch 443, validation error 45.060416 %
+epoch 444, validation error 45.054815 %
+epoch 445, validation error 45.057216 %
+epoch 446, validation error 45.056417 %
+epoch 447, validation error 45.052415 %
+epoch 448, validation error 45.051615 %
+epoch 449, validation error 45.049218 %
+epoch 450, validation error 45.045218 %
+epoch 451, validation error 45.045213 %
+epoch 452, validation error 45.045215 %
+epoch 453, validation error 45.045218 %
+epoch 454, validation error 45.042024 %
+epoch 455, validation error 45.038821 %
+epoch 456, validation error 45.043626 %
+epoch 457, validation error 45.043631 %
+epoch 458, validation error 45.039623 %
+epoch 459, validation error 45.041225 %
+epoch 460, validation error 45.038824 %
+epoch 461, validation error 45.040429 %
+epoch 462, validation error 45.039626 %
+epoch 463, validation error 45.042823 %
+epoch 464, validation error 45.042826 %
+epoch 465, validation error 45.042024 %
+epoch 466, validation error 45.042826 %
+epoch 467, validation error 45.043631 %
+epoch 468, validation error 45.043631 %
+epoch 469, validation error 45.042030 %
+epoch 470, validation error 45.042024 %
+epoch 471, validation error 45.040420 %
+epoch 472, validation error 45.042024 %
+epoch 473, validation error 45.034816 %
+epoch 474, validation error 45.039618 %
+epoch 475, validation error 45.039615 %
+epoch 476, validation error 45.039615 %
+epoch 477, validation error 45.037199 %
+epoch 478, validation error 45.037999 %
+epoch 479, validation error 45.038801 %
+epoch 480, validation error 45.037996 %
+epoch 481, validation error 45.039594 %
+epoch 482, validation error 45.039591 %
+epoch 483, validation error 45.042791 %
+epoch 484, validation error 45.041196 %
+epoch 485, validation error 45.041199 %
+epoch 486, validation error 45.041199 %
+epoch 487, validation error 45.042797 %
+epoch 488, validation error 45.041998 %
+epoch 489, validation error 45.043594 %
+epoch 490, validation error 45.043594 %
+epoch 491, validation error 45.041196 %
+epoch 492, validation error 45.041998 %
+epoch 493, validation error 45.042803 %
+epoch 494, validation error 45.038002 %
+epoch 495, validation error 45.041207 %
+epoch 496, validation error 45.042806 %
+epoch 497, validation error 45.043608 %
+epoch 498, validation error 45.050813 %
+epoch 499, validation error 45.049215 %
+epoch 500, validation error 45.054016 %
+epoch 501, validation error 45.050017 %
+epoch 502, validation error 45.050023 %
+epoch 503, validation error 45.048413 %
+epoch 504, validation error 45.049212 %
+epoch 505, validation error 45.052415 %
+epoch 506, validation error 45.043608 %
+epoch 507, validation error 45.038798 %
+epoch 508, validation error 45.036400 %
+epoch 509, validation error 45.034802 %
+epoch 510, validation error 45.034799 %
+epoch 511, validation error 45.031596 %
+epoch 512, validation error 45.025995 %
+epoch 513, validation error 45.024385 %
+epoch 514, validation error 45.021984 %
+epoch 515, validation error 45.020386 %
+epoch 516, validation error 45.020386 %
+epoch 517, validation error 45.021182 %
+epoch 518, validation error 45.021978 %
+epoch 519, validation error 45.022775 %
+epoch 520, validation error 45.020374 %
+epoch 521, validation error 45.018773 %
+epoch 522, validation error 45.019572 %
+epoch 523, validation error 45.017174 %
+epoch 524, validation error 45.015570 %
+epoch 525, validation error 45.013968 %
+epoch 526, validation error 45.009170 %
+epoch 527, validation error 45.014776 %
+epoch 528, validation error 45.013178 %
+epoch 529, validation error 45.010774 %
+epoch 530, validation error 45.009173 %
+epoch 531, validation error 45.006775 %
+epoch 532, validation error 45.005176 %
+epoch 533, validation error 45.007580 %
+epoch 534, validation error 45.004377 %
+epoch 535, validation error 45.003578 %
+epoch 536, validation error 45.005981 %
+epoch 537, validation error 45.005173 %
+epoch 538, validation error 45.005171 %
+epoch 539, validation error 45.004368 %
+epoch 540, validation error 45.005973 %
+epoch 541, validation error 45.008371 %
+epoch 542, validation error 45.005171 %
+epoch 543, validation error 45.005970 %
+epoch 544, validation error 45.007571 %
+epoch 545, validation error 45.009972 %
+epoch 546, validation error 45.005979 %
+epoch 547, validation error 45.010777 %
+epoch 548, validation error 45.006778 %
+epoch 549, validation error 45.004374 %
+epoch 550, validation error 45.001174 %
+epoch 551, validation error 44.997178 %
+epoch 552, validation error 44.994780 %
+epoch 553, validation error 44.991580 %
+epoch 554, validation error 44.993182 %
+epoch 555, validation error 44.996384 %
+epoch 556, validation error 44.995591 %
+epoch 557, validation error 44.998791 %
+epoch 558, validation error 44.995594 %
+epoch 559, validation error 44.994795 %
+epoch 560, validation error 44.995600 %
+epoch 561, validation error 44.995600 %
+epoch 562, validation error 44.998000 %
+epoch 563, validation error 44.994800 %
+epoch 564, validation error 44.992397 %
+epoch 565, validation error 44.990795 %
+epoch 566, validation error 44.988392 %
+epoch 567, validation error 44.993196 %
+epoch 568, validation error 44.989993 %
+epoch 569, validation error 44.991597 %
+epoch 570, validation error 44.989194 %
+epoch 571, validation error 44.985198 %
+epoch 572, validation error 44.987598 %
+epoch 573, validation error 44.985198 %
+epoch 574, validation error 44.989993 %
+epoch 575, validation error 44.989993 %
+epoch 576, validation error 44.991595 %
+epoch 577, validation error 44.992391 %
+epoch 578, validation error 44.990790 %
+epoch 579, validation error 44.992388 %
+epoch 580, validation error 44.996390 %
+epoch 581, validation error 44.995588 %
+epoch 582, validation error 44.993987 %
+epoch 583, validation error 44.995582 %
+epoch 584, validation error 44.995585 %
+epoch 585, validation error 44.995582 %
+epoch 586, validation error 44.994780 %
+epoch 587, validation error 44.994783 %
+epoch 588, validation error 44.993978 %
+epoch 589, validation error 44.991577 %
+epoch 590, validation error 44.989976 %
+epoch 591, validation error 44.988380 %
+epoch 592, validation error 44.985180 %
+epoch 593, validation error 44.984378 %
+epoch 594, validation error 44.982776 %
+epoch 595, validation error 44.983576 %
+epoch 596, validation error 44.985177 %
+epoch 597, validation error 44.981974 %
+epoch 598, validation error 44.981974 %
+epoch 599, validation error 44.978771 %
+epoch 600, validation error 44.974769 %
+epoch 601, validation error 44.972363 %
+epoch 602, validation error 44.969163 %
+epoch 603, validation error 44.970755 %
+epoch 604, validation error 44.970750 %
+epoch 605, validation error 44.970750 %
+epoch 606, validation error 44.965149 %
+epoch 607, validation error 44.964344 %
+epoch 608, validation error 44.966742 %
+epoch 609, validation error 44.963545 %
+epoch 610, validation error 44.961946 %
+epoch 611, validation error 44.964350 %
+epoch 612, validation error 44.962751 %
+epoch 613, validation error 44.964350 %
+epoch 614, validation error 44.965960 %
+epoch 615, validation error 44.969962 %
+epoch 616, validation error 44.972360 %
+epoch 617, validation error 44.968361 %
+epoch 618, validation error 44.965963 %
+epoch 619, validation error 44.966762 %
+epoch 620, validation error 44.973967 %
+epoch 621, validation error 44.971569 %
+epoch 622, validation error 44.970758 %
+epoch 623, validation error 44.969160 %
+epoch 624, validation error 44.969959 %
+epoch 625, validation error 44.971558 %
+epoch 626, validation error 44.969953 %
+epoch 627, validation error 44.965948 %
+epoch 628, validation error 44.964350 %
+epoch 629, validation error 44.965948 %
+epoch 630, validation error 44.967544 %
+epoch 631, validation error 44.966750 %
+epoch 632, validation error 44.961946 %
+epoch 633, validation error 44.961946 %
+epoch 634, validation error 44.961144 %
+epoch 635, validation error 44.957941 %
+epoch 636, validation error 44.956342 %
+epoch 637, validation error 44.957142 %
+epoch 638, validation error 44.953939 %
+epoch 639, validation error 44.953939 %
+epoch 640, validation error 44.953939 %
+epoch 641, validation error 44.952340 %
+epoch 642, validation error 44.955546 %
+epoch 643, validation error 44.955546 %
+epoch 644, validation error 44.953948 %
+epoch 645, validation error 44.951547 %
+epoch 646, validation error 44.953948 %
+epoch 647, validation error 44.953145 %
+epoch 648, validation error 44.953942 %
+epoch 649, validation error 44.953142 %
+epoch 650, validation error 44.949146 %
+epoch 651, validation error 44.951547 %
+epoch 652, validation error 44.951547 %
+epoch 653, validation error 44.952352 %
+epoch 654, validation error 44.952355 %
+epoch 655, validation error 44.949155 %
+epoch 656, validation error 44.953962 %
+epoch 657, validation error 44.953962 %
+epoch 658, validation error 44.956369 %
+epoch 659, validation error 44.956371 %
+epoch 660, validation error 44.953974 %
+epoch 661, validation error 44.954773 %
+epoch 662, validation error 44.953172 %
+epoch 663, validation error 44.948373 %
+epoch 664, validation error 44.947574 %
+epoch 665, validation error 44.945170 %
+epoch 666, validation error 44.940366 %
+epoch 667, validation error 44.937160 %
+epoch 668, validation error 44.937959 %
+epoch 669, validation error 44.936358 %
+epoch 670, validation error 44.939561 %
+epoch 671, validation error 44.938761 %
+epoch 672, validation error 44.934765 %
+epoch 673, validation error 44.933969 %
+epoch 674, validation error 44.935570 %
+epoch 675, validation error 44.934762 %
+epoch 676, validation error 44.934762 %
+epoch 677, validation error 44.934759 %
+epoch 678, validation error 44.931556 %
+epoch 679, validation error 44.933954 %
+epoch 680, validation error 44.934753 %
+epoch 681, validation error 44.935553 %
+epoch 682, validation error 44.937157 %
+epoch 683, validation error 44.937154 %
+epoch 684, validation error 44.937953 %
+epoch 685, validation error 44.941159 %
+epoch 686, validation error 44.940360 %
+epoch 687, validation error 44.940366 %
+epoch 688, validation error 44.938761 %
+epoch 689, validation error 44.938756 %
+epoch 690, validation error 44.939552 %
+epoch 691, validation error 44.938750 %
+epoch 692, validation error 44.937953 %
+epoch 693, validation error 44.937950 %
+epoch 694, validation error 44.937151 %
+epoch 695, validation error 44.936352 %
+epoch 696, validation error 44.935553 %
+epoch 697, validation error 44.933954 %
+epoch 698, validation error 44.932356 %
+epoch 699, validation error 44.929156 %
+epoch 700, validation error 44.928353 %
+epoch 701, validation error 44.927548 %
+epoch 702, validation error 44.925145 %
+epoch 703, validation error 44.925950 %
+epoch 704, validation error 44.924348 %
+epoch 705, validation error 44.922750 %
+epoch 706, validation error 44.925944 %
+epoch 707, validation error 44.924340 %
+epoch 708, validation error 44.924340 %
+epoch 709, validation error 44.921936 %
+epoch 710, validation error 44.921137 %
+epoch 711, validation error 44.917135 %
+epoch 712, validation error 44.917940 %
+epoch 713, validation error 44.919538 %
+epoch 714, validation error 44.917937 %
+epoch 715, validation error 44.918739 %
+epoch 716, validation error 44.917937 %
+epoch 717, validation error 44.918736 %
+epoch 718, validation error 44.924340 %
+epoch 719, validation error 44.921939 %
+epoch 720, validation error 44.925142 %
+epoch 721, validation error 44.921143 %
+epoch 722, validation error 44.920343 %
+epoch 723, validation error 44.921137 %
+epoch 724, validation error 44.921936 %
+epoch 725, validation error 44.921933 %
+epoch 726, validation error 44.925136 %
+epoch 727, validation error 44.927537 %
+epoch 728, validation error 44.929141 %
+epoch 729, validation error 44.928342 %
+epoch 730, validation error 44.929144 %
+epoch 731, validation error 44.931542 %
+epoch 732, validation error 44.931548 %
+epoch 733, validation error 44.932350 %
+epoch 734, validation error 44.929153 %
+epoch 735, validation error 44.933155 %
+epoch 736, validation error 44.931556 %
+epoch 737, validation error 44.931556 %
+epoch 738, validation error 44.934762 %
+epoch 739, validation error 44.939564 %
+epoch 740, validation error 44.937962 %
+epoch 741, validation error 44.933963 %
+epoch 742, validation error 44.934768 %
+epoch 743, validation error 44.937169 %
+epoch 744, validation error 44.933963 %
+epoch 745, validation error 44.933969 %
+epoch 746, validation error 44.936366 %
+epoch 747, validation error 44.937965 %
+epoch 748, validation error 44.936366 %
+epoch 749, validation error 44.938767 %
+epoch 750, validation error 44.941171 %
+epoch 751, validation error 44.942769 %
+epoch 752, validation error 44.943569 %
+epoch 753, validation error 44.942766 %
+epoch 754, validation error 44.942769 %
+epoch 755, validation error 44.940372 %
+epoch 756, validation error 44.941976 %
+epoch 757, validation error 44.938779 %
+epoch 758, validation error 44.938782 %
+epoch 759, validation error 44.939578 %
+epoch 760, validation error 44.937180 %
+epoch 761, validation error 44.937982 %
+... fine-tuning total time: 49450.0315609
+... initializing HMM.
+... building HMM.
+... training HMM.
+... HMM training time: 1865.21924114
+... saving HMM.

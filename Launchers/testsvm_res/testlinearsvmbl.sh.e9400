@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "./testsvm.py", line 142, in <module>
+    main()
+  File "./testsvm.py", line 41, in main
+    hidden_layers_sz = [int(i) for i in args.l.split(',')]
+ValueError: invalid literal for int() with base 10: ''

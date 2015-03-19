@@ -1,0 +1,5 @@
+Using gpu device 0: Tesla M2090
+INFO (theano.gof.compilelock): Waiting for existing lock by process '11898' (I am process '31055')
+INFO (theano.gof.compilelock): To manually release the lock, delete /cfs/zorn/nobackup/n/ngal/.theano/compiledir_Linux-2.6.18-274.el5-x86_64-with-redhat-5.7-Final-x86_64-2.7.5-64/lock_dir
+/cfs/zorn/nobackup/n/ngal/.local/lib/python2.7/theano/sandbox/rng_mrg.py:756: UserWarning: MRG_RandomStreams Can't determine #streams from size (Shape.0), guessing 60 * 256
+  nstreams = self.n_streams(size)

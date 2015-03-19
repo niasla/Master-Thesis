@@ -1,0 +1,106 @@
+Time Processing Files: 62.2583231926
+Model: 5x2048
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 133
+number of batches: 8455
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 119
+number of batches: 1050
+... loading pickled dbn.
+... getting fine-tune functions.
+... new method of Fine-Tune !
+... fine-tune functions total time: 9.88654899597
+... fine-tuning the model.
+epoch 1, validation error 51.916777 %
+epoch 2, validation error 52.482602 %
+epoch 3, validation error 51.399763 %
+epoch 4, validation error 51.364508 %
+epoch 5, validation error 51.337321 %
+epoch 6, validation error 51.313302 %
+epoch 7, validation error 51.293312 %
+epoch 8, validation error 51.262887 %
+epoch 9, validation error 51.250087 %
+epoch 10, validation error 51.244489 %
+epoch 11, validation error 51.214082 %
+epoch 12, validation error 51.198853 %
+epoch 13, validation error 51.181269 %
+epoch 14, validation error 51.166847 %
+epoch 15, validation error 51.147647 %
+epoch 16, validation error 51.128424 %
+epoch 17, validation error 51.111630 %
+epoch 18, validation error 51.100446 %
+epoch 19, validation error 51.078015 %
+epoch 20, validation error 51.056396 %
+epoch 21, validation error 51.062785 %
+epoch 22, validation error 49.878337 %
+epoch 23, validation error 49.904733 %
+epoch 24, validation error 48.767532 %
+epoch 25, validation error 48.790742 %
+epoch 26, validation error 47.928752 %
+epoch 27, validation error 47.927973 %
+epoch 28, validation error 47.965611 %
+epoch 29, validation error 47.353364 %
+epoch 30, validation error 47.331741 %
+epoch 31, validation error 47.322126 %
+epoch 32, validation error 47.322934 %
+epoch 33, validation error 46.967631 %
+epoch 34, validation error 46.958022 %
+epoch 35, validation error 46.942002 %
+epoch 36, validation error 46.941203 %
+epoch 37, validation error 46.938012 %
+epoch 38, validation error 46.926005 %
+epoch 39, validation error 46.909194 %
+epoch 40, validation error 46.901998 %
+epoch 41, validation error 46.896388 %
+epoch 42, validation error 46.887576 %
+epoch 43, validation error 46.873971 %
+epoch 44, validation error 46.864377 %
+epoch 45, validation error 46.852379 %
+epoch 46, validation error 46.852370 %
+epoch 47, validation error 46.853975 %
+... fine-tuning total time: 15094.236448
+... initializing HMM.
+... building HMM.
+... training HMM.
+Training logp: -45.68221 
+Dev logp: 375.65891 
+Mean dev per: 50.19982
+Training logp: 490.89783 
+Dev logp: 559.07094 
+Mean dev per: 50.32566
+Training logp: 620.82569 
+Dev logp: 610.63445 
+Mean dev per: 50.50995
+Training logp: 653.02861 
+Dev logp: 630.00437 
+Mean dev per: 50.58488
+Training logp: 663.29248 
+Dev logp: 638.88457 
+Mean dev per: 50.55372
+Training logp: 667.35024 
+Dev logp: 643.51531 
+Mean dev per: 50.46444
+Training logp: 669.23647 
+Dev logp: 646.11605 
+Mean dev per: 50.39488
+Training logp: 670.21976 
+Dev logp: 647.71742 
+Mean dev per: 50.31453
+Training logp: 670.77665 
+Dev logp: 648.76191 
+Mean dev per: 50.24419
+Training logp: 671.10004 
+Dev logp: 649.47531 
+Mean dev per: 50.18546
+Training logp: 671.28571 
+Dev logp: 649.99664 
+Mean dev per: 50.12990
+Training logp: 671.39719 
+Dev logp: 650.39523 
+Mean dev per: 50.08381
+... HMM training time: 8760.37141895
+... saving HMM.

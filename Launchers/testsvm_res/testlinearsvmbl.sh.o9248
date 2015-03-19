@@ -1,0 +1,4 @@
+... loading binary vectors.
+... loading classifier path: /cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/Models/3x512_pr_225/LinearSVM_bl_1.save
+... computing score.
+Score for 3x512_pr_225_LinearSVM_bl_1.save: 53.748510

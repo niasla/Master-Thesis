@@ -1,0 +1,111 @@
+Time Processing Files: 63.6822710037
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 133
+number of batches: 8455
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 119
+number of batches: 1050
+... building dbn model.
+... getting the pretraining functions
+Getting pre-training function total time: 41.5596539974
+... pre-training dbn model.
+... pretraining total time: 5.96046447754e-06
+... getting fine-tune functions.
+... fine-tune functions total time: 6.31957602501
+... fine-tuning the model.
+epoch 1, validation error 55.218895 %
+epoch 2, validation error 53.094064 %
+epoch 3, validation error 51.604649 %
+epoch 4, validation error 50.635469 %
+epoch 5, validation error 49.990362 %
+epoch 6, validation error 49.592634 %
+epoch 7, validation error 49.257289 %
+epoch 8, validation error 48.983584 %
+epoch 9, validation error 48.753880 %
+epoch 10, validation error 48.537775 %
+epoch 11, validation error 48.355338 %
+epoch 12, validation error 48.212106 %
+epoch 13, validation error 48.070455 %
+epoch 14, validation error 47.927996 %
+epoch 15, validation error 47.827140 %
+epoch 16, validation error 47.723880 %
+epoch 17, validation error 47.607032 %
+epoch 18, validation error 47.485404 %
+epoch 19, validation error 47.409406 %
+epoch 20, validation error 47.325370 %
+epoch 21, validation error 47.273362 %
+epoch 22, validation error 47.212524 %
+epoch 23, validation error 47.141293 %
+epoch 24, validation error 47.078029 %
+epoch 25, validation error 47.029213 %
+epoch 26, validation error 46.981201 %
+epoch 27, validation error 46.960379 %
+epoch 28, validation error 46.909162 %
+epoch 29, validation error 46.865952 %
+epoch 30, validation error 46.797956 %
+epoch 31, validation error 46.797137 %
+epoch 32, validation error 46.750706 %
+epoch 33, validation error 46.718712 %
+epoch 34, validation error 46.686683 %
+epoch 35, validation error 46.641849 %
+epoch 36, validation error 46.617841 %
+epoch 37, validation error 46.565005 %
+epoch 38, validation error 46.526582 %
+epoch 39, validation error 46.495364 %
+epoch 40, validation error 46.485785 %
+epoch 41, validation error 46.459377 %
+epoch 42, validation error 46.457764 %
+epoch 43, validation error 46.415356 %
+epoch 44, validation error 46.377738 %
+epoch 45, validation error 46.346508 %
+epoch 46, validation error 46.336121 %
+epoch 47, validation error 46.311311 %
+epoch 48, validation error 46.294512 %
+epoch 49, validation error 46.274498 %
+epoch 50, validation error 46.277698 %
+epoch 51, validation error 46.254505 %
+epoch 52, validation error 46.238499 %
+epoch 53, validation error 46.212873 %
+epoch 54, validation error 46.184858 %
+epoch 55, validation error 46.159261 %
+epoch 56, validation error 46.147231 %
+epoch 57, validation error 46.130423 %
+epoch 58, validation error 46.114415 %
+epoch 59, validation error 46.104027 %
+epoch 60, validation error 46.074413 %
+epoch 61, validation error 46.057608 %
+epoch 62, validation error 46.035209 %
+epoch 63, validation error 46.025614 %
+epoch 64, validation error 46.004813 %
+epoch 65, validation error 45.983988 %
+epoch 66, validation error 45.975990 %
+epoch 67, validation error 45.955997 %
+epoch 68, validation error 45.952003 %
+epoch 69, validation error 45.933605 %
+epoch 70, validation error 45.912784 %
+epoch 71, validation error 45.895976 %
+epoch 72, validation error 45.888779 %
+epoch 73, validation error 45.875971 %
+epoch 74, validation error 45.852743 %
+epoch 75, validation error 45.839945 %
+epoch 76, validation error 45.811936 %
+epoch 77, validation error 45.787935 %
+epoch 78, validation error 45.779919 %
+epoch 79, validation error 45.767139 %
+epoch 80, validation error 45.763945 %
+epoch 81, validation error 45.757545 %
+epoch 82, validation error 45.746320 %
+epoch 83, validation error 45.746326 %
+epoch 84, validation error 45.723932 %
+epoch 85, validation error 45.715934 %
+epoch 86, validation error 45.703921 %
+epoch 87, validation error 45.690319 %
+epoch 88, validation error 45.678310 %
+epoch 89, validation error 45.657500 %
+epoch 90, validation error 45.643886 %
+epoch 91, validation error 45.622268 %
+epoch 92, valid

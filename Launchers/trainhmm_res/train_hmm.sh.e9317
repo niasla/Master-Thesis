@@ -1,0 +1,7 @@
+Using gpu device 0: Tesla M2090
+Traceback (most recent call last):
+  File "./train.py", line 492, in <module>
+    main()
+  File "./train.py", line 276, in main
+    f_dbn = file(model_dir_path+ft_only_model, 'rb')
+IOError: [Errno 2] No such file or directory: '/cfs/zorn/nobackup/n/ngal/~ngal/MT/PythonCode/Models/4x2048_pr_225/DBN_RBM_final.save'

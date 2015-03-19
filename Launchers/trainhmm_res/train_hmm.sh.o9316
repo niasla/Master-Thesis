@@ -1,0 +1,53 @@
+Time Processing Files: 61.5990309715
+Model: 4x1024
+====Training====
+Total utterances: 3696
+Total MFCCs: 1124515
+batch size: 32129
+number of batches: 35
+====Validation====
+Total utterances: 400
+Total MFCCs: 124950
+batch size: 41650
+number of batches: 3
+... loading pickled dbn.
+... getting fine-tune functions.
+... new method of Fine-Tune !
+... fine-tune functions total time: 7.00760316849
+... fine-tuning the model.
+... fine-tuning total time: 0.00974702835083
+... initializing HMM.
+... building HMM.
+... training HMM.
+Training logp: -44.45066 
+Dev logp: 426.30547 
+Mean dev per: 0.47023
+Training logp: 521.92627 
+Dev logp: 610.61023 
+Mean dev per: 0.47259
+Training logp: 659.35958 
+Dev logp: 655.83250 
+Mean dev per: 0.47463
+Training logp: 689.00216 
+Dev logp: 671.27336 
+Mean dev per: 0.47567
+Training logp: 697.38190 
+Dev logp: 677.94234 
+Mean dev per: 0.47479
+Training logp: 700.43006 
+Dev logp: 681.32445 
+Mean dev per: 0.47419
+Training logp: 701.81338 
+Dev logp: 683.26234 
+Mean dev per: 0.47307
+Training logp: 702.56764 
+Dev logp: 684.46094 
+Mean dev per: 0.47213
+Training logp: 703.00047 
+Dev logp: 685.21352 
+Mean dev per: 0.47179
+Training logp: 703.23627 
+Dev logp: 685.69766 
+Mean dev per: 0.47142
+... HMM training time: 10028.408119
+... saving HMM.
